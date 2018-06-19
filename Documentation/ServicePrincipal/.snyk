@@ -1,0 +1,46 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - azure-arm-authorization > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2018-06-19T00:22:12.405Z'
+    - ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2018-06-19T00:22:12.405Z'
+    - ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2018-06-19T00:22:12.405Z'
+    - ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-19T00:22:12.405Z'
+    - ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > hoek:
+        patched: '2018-06-19T00:22:12.405Z'
+    - ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > boom > hoek:
+        patched: '2018-06-19T00:22:12.405Z'
+    - ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > sntp > hoek:
+        patched: '2018-06-19T00:22:12.405Z'
+    - ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-19T00:22:12.405Z'
+    - azure-arm-authorization > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2018-06-19T00:22:12.405Z'
+    - azure-arm-authorization > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2018-06-19T00:22:12.405Z'
+    - ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2018-06-19T00:22:12.405Z'
+    - azure-arm-authorization > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-19T00:22:12.405Z'
+    - azure-graph > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2018-06-19T00:22:12.405Z'
+    - azure-graph > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2018-06-19T00:22:12.405Z'
+    - azure-graph > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2018-06-19T00:22:12.405Z'
+    - azure-graph > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-19T00:22:12.405Z'
+    - azure-graph > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > hoek:
+        patched: '2018-06-19T00:22:12.405Z'
+    - azure-graph > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > boom > hoek:
+        patched: '2018-06-19T00:22:12.405Z'
+    - azure-graph > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > sntp > hoek:
+        patched: '2018-06-19T00:22:12.405Z'
+    - azure-graph > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-19T00:22:12.405Z'
