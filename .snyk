@@ -1,0 +1,136 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:tunnel-agent:20170305':
+    - azure-arm-rediscache > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-graph > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-insights > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-insights > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-insights > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-insights > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-keyvault > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-keyvault > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-keyvault > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-authorization > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-cdn > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-compute > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-devtestlabs > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-eventhub > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-iothub > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-iothub > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-iothub > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-keyvault > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-keyvault > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-keyvault > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-network > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-notificationhubs > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-powerbiembedded > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-powerbiembedded > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-powerbiembedded > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-resource > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-resource > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-rediscache > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-rediscache > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-graph > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-servermanagement > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-storage > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-dns > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-intune > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-intune > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-intune > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-datalake-analytics > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-datalake-analytics > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-datalake-analytics > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-datalake-analytics > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-insights > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-insights > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-insights > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-insights > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-batch > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-datalake-store > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-datalake-store > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-datalake-store > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-datalake-store > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-sb > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-sb > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-sb > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-batch > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-servicefabric > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-servicefabric > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-servicefabric > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-servicefabric > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-website > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-website > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-website > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-trafficmanager > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
+    - azure-arm-trafficmanager > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2018-06-26T00:26:36.665Z'
