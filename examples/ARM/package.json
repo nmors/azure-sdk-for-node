@@ -4,10 +4,16 @@
   "version": "1.0.0",
   "dependencies": {
     "async": "^1.5.2",
-    "azure-arm-compute": "^0.14.2",
-    "azure-arm-network": "^0.12.1",
-    "azure-arm-resource": "^1.0.0-preview",
-    "azure-arm-storage": "^0.12.2-preview",
-    "ms-rest-azure": "^1.9.0"
-  }
+    "azure-arm-compute": "^4.0.0",
+    "azure-arm-network": "^2.0.0",
+    "azure-arm-resource": "^5.0.0",
+    "azure-arm-storage": "^3.1.0",
+    "ms-rest-azure": "^2.1.0",
+    "snyk": "^1.104.2"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
