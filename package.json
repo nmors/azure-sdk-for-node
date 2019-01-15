@@ -64,7 +64,7 @@
     "azure-arm-network": "0.16.2",
     "azure-arm-notificationhubs": "0.2.2-preview",
     "azure-arm-powerbiembedded": "0.1.1",
-    "azure-arm-rediscache": "0.2.3",
+    "azure-arm-rediscache": "3.0.0",
     "azure-arm-resource": "1.5.1-preview",
     "azure-arm-sb": "0.1.0",
     "azure-arm-servermanagement": "0.1.4",
