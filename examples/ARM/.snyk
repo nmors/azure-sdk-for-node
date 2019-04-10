@@ -1,0 +1,67 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - azure-arm-compute > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-04-10T04:49:48.739Z'
+    - azure-arm-compute > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2019-04-10T04:49:48.739Z'
+    - azure-arm-resource > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2019-04-10T04:49:48.739Z'
+    - azure-arm-storage > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > hoek:
+        patched: '2019-04-10T04:49:48.739Z'
+    - azure-arm-resource > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > hoek:
+        patched: '2019-04-10T04:49:48.739Z'
+    - azure-arm-compute > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-04-10T04:49:48.739Z'
+    - azure-arm-resource > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-04-10T04:49:48.739Z'
+    - azure-arm-storage > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-04-10T04:49:48.739Z'
+    - azure-arm-compute > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-04-10T04:49:48.739Z'
+    - azure-arm-resource > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-04-10T04:49:48.739Z'
+    - azure-arm-storage > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-04-10T04:49:48.739Z'
+    - azure-arm-compute > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > hoek:
+        patched: '2019-04-10T04:49:48.739Z'
+    - azure-arm-compute > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-04-10T04:49:48.739Z'
+    - azure-arm-storage > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-04-10T04:49:48.739Z'
+    - azure-arm-compute > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-04-10T04:49:48.739Z'
+    - azure-arm-storage > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2019-04-10T04:49:48.739Z'
+    - azure-arm-storage > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-04-10T04:49:48.739Z'
+    - azure-arm-resource > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-04-10T04:49:48.739Z'
+    - azure-arm-resource > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-04-10T04:49:48.739Z'
+    - azure-arm-storage > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-04-10T04:49:48.739Z'
+    - azure-arm-resource > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-04-10T04:49:48.739Z'
+    - azure-arm-compute > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-04-10T04:49:48.739Z'
+    - azure-arm-storage > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-04-10T04:49:48.739Z'
+    - azure-arm-resource > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-04-10T04:49:48.739Z'
+  'npm:tunnel-agent:20170305':
+    - azure-arm-compute > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2019-04-10T04:49:48.739Z'
+    - azure-arm-resource > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2019-04-10T04:49:48.739Z'
+    - azure-arm-storage > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2019-04-10T04:49:48.739Z'
+    - azure-arm-compute > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2019-04-10T04:49:48.739Z'
+    - azure-arm-storage > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2019-04-10T04:49:48.739Z'
+    - azure-arm-resource > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2019-04-10T04:49:48.739Z'
