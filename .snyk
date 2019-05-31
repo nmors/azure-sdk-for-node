@@ -1,0 +1,447 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - azure-arm-notificationhubs > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-insights > ms-rest > request > hawk > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-powerbiembedded > ms-rest > request > hawk > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-intune > ms-rest > request > hawk > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-datalake-store > ms-rest > request > hawk > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-datalake-analytics > ms-rest > request > hawk > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-intune > ms-rest-azure > ms-rest > request > hawk > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-insights > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-insights > ms-rest-azure > ms-rest > request > hawk > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-powerbiembedded > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-intune > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-insights > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-datalake-store > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-datalake-analytics > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-insights > ms-rest-azure > ms-rest > request > hawk > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-datalake-store > ms-rest-azure > ms-rest > request > hawk > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-datalake-analytics > ms-rest-azure > ms-rest > request > hawk > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-powerbiembedded > ms-rest-azure > ms-rest > request > hawk > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-datalake-analytics > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-datalake-store > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-insights > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-intune > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-powerbiembedded > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-insights > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-insights > ms-rest-azure > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-datalake-store > ms-rest-azure > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-intune > ms-rest-azure > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-powerbiembedded > ms-rest-azure > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-datalake-analytics > ms-rest-azure > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-datalake-analytics > ms-rest-azure > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-datalake-store > ms-rest-azure > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-insights > ms-rest-azure > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-insights > ms-rest-azure > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-powerbiembedded > ms-rest-azure > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-intune > ms-rest-azure > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-insights > ms-rest-azure > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-insights > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-authorization > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-batch > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-cdn > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-compute > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-devtestlabs > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-dns > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-eventhub > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-intune > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-iothub > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-keyvault > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-notificationhubs > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-powerbiembedded > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-rediscache > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-resource > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-sb > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-servermanagement > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-storage > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-website > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-batch > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-keyvault > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-powerbiembedded > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-datalake-analytics > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-datalake-store > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-insights > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-trafficmanager > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-graph > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-insights > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-intune > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-insights > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-datalake-store > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-datalake-analytics > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-trafficmanager > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-insights > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-datalake-store > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-datalake-analytics > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-intune > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-authorization > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-batch > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-cdn > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-compute > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-devtestlabs > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-dns > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-eventhub > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-intune > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-iothub > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-keyvault > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-notificationhubs > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-powerbiembedded > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-rediscache > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-resource > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-sb > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-servermanagement > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-storage > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-website > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-batch > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-keyvault > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-datalake-analytics > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-datalake-store > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-insights > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-trafficmanager > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-graph > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-insights > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-powerbiembedded > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-authorization > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-graph > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-cdn > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-compute > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-devtestlabs > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-dns > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-eventhub > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-intune > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-iothub > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-keyvault > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-insights > ms-rest > request > hawk > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-powerbiembedded > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-rediscache > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-resource > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-sb > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-servermanagement > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-storage > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-website > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-batch > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-keyvault > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-datalake-analytics > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-datalake-store > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-insights > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-trafficmanager > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-graph > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-insights > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-batch > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-datalake-analytics > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-datalake-store > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-insights > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-insights > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-insights > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-batch > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-insights > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-graph > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-trafficmanager > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-insights > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-datalake-store > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-datalake-analytics > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-dns > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-insights > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-graph > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-trafficmanager > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-insights > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-datalake-store > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-datalake-analytics > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-compute > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-authorization > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-eventhub > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-intune > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-iothub > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-keyvault > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-notificationhubs > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-cdn > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-insights > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-graph > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-trafficmanager > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-insights > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-datalake-store > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-datalake-analytics > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-keyvault > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-batch > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-website > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-storage > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-servermanagement > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-sb > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-resource > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-rediscache > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-powerbiembedded > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-devtestlabs > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-datalake-analytics > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-datalake-store > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-insights > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-trafficmanager > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-graph > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-insights > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-31T23:36:32.785Z'
+  'npm:tunnel-agent:20170305':
+    - azure-graph > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-insights > ms-rest > request > tunnel-agent:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-intune > ms-rest > request > tunnel-agent:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-insights > ms-rest > request > tunnel-agent:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-datalake-store > ms-rest > request > tunnel-agent:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-datalake-analytics > ms-rest > request > tunnel-agent:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-intune > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-powerbiembedded > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-insights > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-insights > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-datalake-store > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-datalake-analytics > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-batch > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-cdn > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-authorization > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-devtestlabs > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-dns > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-eventhub > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-intune > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-compute > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-batch > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-insights > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-powerbiembedded > ms-rest > request > tunnel-agent:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-trafficmanager > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-insights > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-datalake-store > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-datalake-analytics > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-keyvault > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-iothub > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-website > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-storage > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-servermanagement > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-sb > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-resource > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-rediscache > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-powerbiembedded > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-notificationhubs > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-keyvault > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-insights > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-datalake-analytics > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-datalake-store > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-insights > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-arm-trafficmanager > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2019-05-31T23:36:32.785Z'
+    - azure-graph > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2019-05-31T23:36:32.785Z'
