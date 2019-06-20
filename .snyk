@@ -1,0 +1,77 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - azure-arm-rediscache > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-06-20T23:38:21.280Z'
+    - azure-arm-insights > ms-rest > request > hawk > hoek:
+        patched: '2019-06-20T23:38:21.280Z'
+    - azure-insights > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-06-20T23:38:21.280Z'
+    - azure-arm-insights > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-06-20T23:38:21.280Z'
+    - azure-arm-insights > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-06-20T23:38:21.280Z'
+    - azure-insights > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-06-20T23:38:21.280Z'
+    - azure-insights > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-06-20T23:38:21.280Z'
+    - azure-arm-batch > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2019-06-20T23:38:21.280Z'
+    - azure-arm-compute > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2019-06-20T23:38:21.280Z'
+    - azure-arm-iothub > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2019-06-20T23:38:21.280Z'
+    - azure-arm-notificationhubs > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2019-06-20T23:38:21.280Z'
+    - azure-arm-rediscache > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2019-06-20T23:38:21.280Z'
+    - azure-arm-insights > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-06-20T23:38:21.280Z'
+    - azure-arm-batch > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-06-20T23:38:21.280Z'
+    - azure-arm-compute > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-06-20T23:38:21.280Z'
+    - azure-arm-iothub > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-06-20T23:38:21.280Z'
+    - azure-arm-notificationhubs > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2019-06-20T23:38:21.280Z'
+    - azure-insights > ms-rest > request > hawk > hoek:
+        patched: '2019-06-20T23:38:21.280Z'
+    - azure-arm-compute > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-06-20T23:38:21.280Z'
+    - azure-arm-iothub > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-06-20T23:38:21.280Z'
+    - azure-arm-notificationhubs > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-06-20T23:38:21.280Z'
+    - azure-arm-rediscache > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-06-20T23:38:21.280Z'
+    - azure-arm-batch > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2019-06-20T23:38:21.280Z'
+    - azure-arm-batch > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-06-20T23:38:21.280Z'
+    - azure-arm-compute > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-06-20T23:38:21.280Z'
+    - azure-arm-iothub > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-06-20T23:38:21.280Z'
+    - azure-arm-notificationhubs > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-06-20T23:38:21.280Z'
+    - azure-arm-rediscache > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-06-20T23:38:21.280Z'
+  'npm:tunnel-agent:20170305':
+    - azure-insights > ms-rest > request > tunnel-agent:
+        patched: '2019-06-20T23:38:21.280Z'
+    - azure-arm-insights > ms-rest > request > tunnel-agent:
+        patched: '2019-06-20T23:38:21.280Z'
+    - azure-arm-compute > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2019-06-20T23:38:21.280Z'
+    - azure-arm-batch > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2019-06-20T23:38:21.280Z'
+    - azure-arm-iothub > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2019-06-20T23:38:21.280Z'
+    - azure-arm-rediscache > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2019-06-20T23:38:21.280Z'
+    - azure-arm-notificationhubs > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2019-06-20T23:38:21.280Z'
