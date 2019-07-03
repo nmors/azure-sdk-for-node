@@ -7,8 +7,18 @@
   },
   "version": "1.15.2",
   "description": "Client Runtime for Node.js client libraries generated using AutoRest",
-  "tags": ["node", "microsoft", "autorest", "clientruntime"],
-  "keywords": ["node", "microsoft", "autorest", "clientruntime"],
+  "tags": [
+    "node",
+    "microsoft",
+    "autorest",
+    "clientruntime"
+  ],
+  "keywords": [
+    "node",
+    "microsoft",
+    "autorest",
+    "clientruntime"
+  ],
   "main": "./lib/msRest.js",
   "typings": "./lib/index.d.ts",
   "license": "MIT",
@@ -17,7 +27,8 @@
     "request": "~2.74.0",
     "duplexer": "~0.1.1",
     "through": "~2.3.4",
-    "moment": "^2.14.1"
+    "moment": "^2.14.1",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "jshint": "2.6.3",
@@ -37,6 +48,9 @@
   "scripts": {
     "test": "npm install && npm -s run-script jshint && npm -s run-script unit",
     "unit": "node test/unit.js testlist.txt",
-    "jshint": "jshint lib --reporter=jslint"
-  }
+    "jshint": "jshint lib --reporter=jslint",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
