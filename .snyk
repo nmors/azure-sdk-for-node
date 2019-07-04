@@ -1,0 +1,202 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - ms-rest-azure > azure-arm-resource > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-common > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-network > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - ms-rest-azure > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-keyvault > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-insights > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-graph > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-batch > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-website > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-trafficmanager > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-storage > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-servermanagement > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-sb > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-resource > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-rediscache > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-powerbiembedded > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-notificationhubs > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-servicefabric > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-keyvault > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-iothub > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-intune > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-insights > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-eventhub > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-dns > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-devtestlabs > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-datalake-store > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-datalake-analytics > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-compute > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-cdn > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-batch > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-authorization > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-keyvault > ms-rest-azure > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-compute > ms-rest-azure > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-devtestlabs > ms-rest-azure > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-dns > ms-rest-azure > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-eventhub > ms-rest-azure > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-intune > ms-rest-azure > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-iothub > ms-rest-azure > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-keyvault > ms-rest-azure > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-network > ms-rest-azure > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-notificationhubs > ms-rest-azure > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-powerbiembedded > ms-rest-azure > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-rediscache > ms-rest-azure > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-resource > ms-rest-azure > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-sb > ms-rest-azure > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-servermanagement > ms-rest-azure > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-storage > ms-rest-azure > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-storage > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-batch > ms-rest-azure > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-website > ms-rest-azure > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-authorization > ms-rest-azure > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-batch > ms-rest-azure > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-servicefabric > ms-rest-azure > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-insights > ms-rest-azure > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-graph > ms-rest-azure > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-trafficmanager > ms-rest-azure > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-insights > ms-rest-azure > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-datalake-store > ms-rest-azure > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-cdn > ms-rest-azure > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-datalake-analytics > ms-rest-azure > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-batch > ms-rest-azure > azure-arm-resource > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-cdn > ms-rest-azure > azure-arm-resource > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-authorization > ms-rest-azure > azure-arm-resource > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-devtestlabs > ms-rest-azure > azure-arm-resource > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-dns > ms-rest-azure > azure-arm-resource > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-eventhub > ms-rest-azure > azure-arm-resource > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-intune > ms-rest-azure > azure-arm-resource > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-compute > ms-rest-azure > azure-arm-resource > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-batch > ms-rest-azure > azure-arm-resource > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-servicefabric > ms-rest-azure > azure-arm-resource > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-insights > ms-rest-azure > azure-arm-resource > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-graph > ms-rest-azure > azure-arm-resource > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-trafficmanager > ms-rest-azure > azure-arm-resource > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-insights > ms-rest-azure > azure-arm-resource > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-datalake-store > ms-rest-azure > azure-arm-resource > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-datalake-analytics > ms-rest-azure > azure-arm-resource > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-keyvault > ms-rest-azure > azure-arm-resource > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-iothub > ms-rest-azure > azure-arm-resource > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-website > ms-rest-azure > azure-arm-resource > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-storage > ms-rest-azure > azure-arm-resource > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-servermanagement > ms-rest-azure > azure-arm-resource > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-sb > ms-rest-azure > azure-arm-resource > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-resource > ms-rest-azure > azure-arm-resource > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-rediscache > ms-rest-azure > azure-arm-resource > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-powerbiembedded > ms-rest-azure > azure-arm-resource > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-notificationhubs > ms-rest-azure > azure-arm-resource > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-network > ms-rest-azure > azure-arm-resource > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-keyvault > ms-rest-azure > azure-arm-resource > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-insights > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-datalake-analytics > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-datalake-store > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-insights > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-arm-trafficmanager > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-graph > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
+    - azure-servicefabric > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > form-data > async > lodash:
+        patched: '2019-07-04T23:37:45.559Z'
