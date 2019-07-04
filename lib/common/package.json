@@ -33,7 +33,8 @@
     "validator": "~3.22.2",
     "envconf": "~0.0.4",
     "duplexer": "~0.1.1",
-    "through": "~2.3.4"
+    "through": "~2.3.4",
+    "snyk": "^1.189.0"
   },
   "homepage": "http://github.com/Azure/azure-sdk-for-node",
   "repository": {
@@ -44,6 +45,9 @@
     "url": "http://github.com/Azure/azure-sdk-for-node/issues"
   },
   "scripts": {
-    "test": "npm -s run-script jshint"
-  }
+    "test": "npm -s run-script jshint",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
