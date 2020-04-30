@@ -7,8 +7,20 @@
   },
   "version": "1.15.2",
   "description": "Client Runtime for Node.js Azure client libraries generated using AutoRest",
-  "tags": [ "node", "microsoft", "autorest", "azure", "clientruntime" ],
-  "keywords": [ "node", "microsoft", "autorest", "azure", "clientruntime" ],
+  "tags": [
+    "node",
+    "microsoft",
+    "autorest",
+    "azure",
+    "clientruntime"
+  ],
+  "keywords": [
+    "node",
+    "microsoft",
+    "autorest",
+    "azure",
+    "clientruntime"
+  ],
   "main": "./lib/msRestAzure.js",
   "typings": "./lib/index.d.ts",
   "license": "MIT",
@@ -18,7 +30,8 @@
     "adal-node": "^0.1.17",
     "ms-rest": "^1.15.0",
     "moment": "^2.14.1",
-    "azure-arm-resource": "^1.4.4-preview"
+    "azure-arm-resource": "^1.4.4-preview",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "jshint": "2.6.3",
@@ -37,6 +50,9 @@
   "scripts": {
     "test": "npm install && npm -s run-script jshint && npm -s run-script unit",
     "unit": "node test/unit.js testlist.txt",
-    "jshint": "jshint lib --reporter=jslint"
-  }
+    "jshint": "jshint lib --reporter=jslint",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
