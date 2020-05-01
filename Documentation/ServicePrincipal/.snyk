@@ -1,0 +1,28 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - ms-rest > request > form-data > async > lodash:
+        patched: '2020-05-01T01:49:41.865Z'
+    - ms-rest-azure > ms-rest > request > form-data > async > lodash:
+        patched: '2020-05-01T01:49:41.865Z'
+    - azure-arm-authorization > ms-rest > request > form-data > async > lodash:
+        patched: '2020-05-01T01:49:41.865Z'
+    - azure-graph > ms-rest > request > form-data > async > lodash:
+        patched: '2020-05-01T01:49:41.865Z'
+    - ms-rest-azure > azure-arm-resource > ms-rest > request > form-data > async > lodash:
+        patched: '2020-05-01T01:49:41.865Z'
+    - azure-arm-authorization > ms-rest-azure > ms-rest > request > form-data > async > lodash:
+        patched: '2020-05-01T01:49:41.865Z'
+    - azure-graph > ms-rest-azure > ms-rest > request > form-data > async > lodash:
+        patched: '2020-05-01T01:49:41.865Z'
+    - azure-arm-authorization > ms-rest-azure > azure-arm-resource > ms-rest > request > form-data > async > lodash:
+        patched: '2020-05-01T01:49:41.865Z'
+    - azure-graph > ms-rest-azure > azure-arm-resource > ms-rest > request > form-data > async > lodash:
+        patched: '2020-05-01T01:49:41.865Z'
+    - ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > form-data > async > lodash:
+        patched: '2020-05-01T01:49:41.865Z'
+    - azure-graph > ms-rest-azure > azure-arm-resource > ms-rest-azure > ms-rest > request > form-data > async > lodash:
+        patched: '2020-05-01T01:49:41.865Z'
