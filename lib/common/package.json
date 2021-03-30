@@ -27,7 +27,7 @@
     "xml2js": "0.2.7",
     "xmlbuilder": "0.4.3",
     "dateformat": "1.0.2-1.2.3",
-    "underscore": "1.4.x",
+    "underscore": "1.12.1",
     "tunnel": "~0.0.2",
     "request": "~2.74.0",
     "validator": "~3.22.2",
